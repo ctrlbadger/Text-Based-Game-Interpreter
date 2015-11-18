@@ -54,8 +54,8 @@ int main() {
 					OptionMode = false;
 				}
 				else {
-					DirectoryNum = StrLine[0];
-					StrLine.erase(0, 1);
+					DirectoryNum = StrLine[0] + (StrLine[1]*10);
+					StrLine.erase(0, 2);
 					VecText[Count].DirAllocator[OptionCount] = (DirectoryNum - '0');
 					VecText[Count].DirText[OptionCount] = StrLine;
 
