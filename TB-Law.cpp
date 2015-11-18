@@ -12,6 +12,8 @@ struct Text {
 };
 
 
+
+
 int main() {
 	// Note: You should include LawText.txt in the same directory as the executable
 	std::string FileName = "LawText.txt";
