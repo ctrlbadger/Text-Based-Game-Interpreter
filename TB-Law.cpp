@@ -6,8 +6,8 @@
 struct Text {
 	std::string TextRead = "";
 	int NameText = 0;
-	std::vector<int>  DirAllocator = { 0, 0, 0, 0, 0 };
-	std::vector<std::string> DirText = { "", "", "", "", "" };
+	std::vector<int>  DirAllocator = { 0, 0, 0, 0, 0, 0, 0 };
+	std::vector<std::string> DirText = { "", "", "", "", "", "", "" };
 
 };
 
@@ -31,14 +31,14 @@ int main() {
 	bool OptionMode = true;
 	File.open(FileName);
 	if (!File.is_open()) {
-		
+
 		std::cerr << "ERROR ERROR, DATA CORRUPTION\n DOGE DOGE DOGE DOGGGE DOGGE\n010101011001100010100101010101010010001001" << std::endl;
 		std::cin.ignore();
 		return -1;
 	}
 	char DirectoryNum;
 	while (std::getline(File, StrLine)) {
-		if (StrLine == "0" || StrLine == "1" || StrLine == "2" || StrLine == "3" || StrLine == "4" || StrLine == "5" || StrLine == "6" || StrLine == "7" || StrLine == "8" || StrLine == "9" ) {
+		if (StrLine == "0" || StrLine == "1" || StrLine == "2" || StrLine == "3" || StrLine == "4" || StrLine == "5" || StrLine == "6" || StrLine == "7" || StrLine == "8" || StrLine == "9") {
 			VecText.push_back(Text());
 			VecText[Count].NameText = atoi(StrLine.c_str());
 			Mode = "Text";
@@ -50,17 +50,22 @@ int main() {
 			OptionMode = true;
 			int OptionCount = 0;
 			do {
-				
+
 				if (StrLine == "~") {
 					Count++;
 					OptionMode = false;
 				}
 				else {
-					DirectoryNum = StrLine[1] + (StrLine[0]*10);
-					StrLine.erase(0, 2);
+					if (StrLine[1] == ':') {
+						DirectoryNum = StrLine[0];
+						StrLine.erase(0, 1);
+					}
+					else {
+						DirectoryNum = (StrLine[0] * 10) + StrLine[1];
+						StrLine.erase(0, 2);
+					}
 					VecText[Count].DirAllocator[OptionCount] = (DirectoryNum - '0');
 					VecText[Count].DirText[OptionCount] = StrLine;
-
 					std::getline(File, StrLine);
 					OptionCount++;
 				}
@@ -79,7 +84,7 @@ int main() {
 	do {
 		// This shows the text in the file
 		std::cout << VecText[Count].TextRead << std::endl;
-		for (DirCount = 0; VecText[Count].DirAllocator.size() > DirCount  && VecText[Count].DirAllocator[DirCount] != 0; DirCount++) {
+		for (DirCount = 0; VecText[Count].DirAllocator.size() > DirCount && VecText[Count].DirAllocator[DirCount] != 0; DirCount++) {
 			std::cout << (DirCount + 1) << ": " << VecText[Count].DirText[DirCount] << std::endl;
 			DirAllocatorCount[DirCount] = VecText[Count].DirAllocator[DirCount];
 		}
@@ -87,4 +92,5 @@ int main() {
 		std::cin >> Answer;
 		Count = Answer -= 1;
 	} while (true);
+	return 1;
 }
