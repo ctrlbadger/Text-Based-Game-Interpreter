@@ -1,72 +1,144 @@
 0
-You are sitting at your desk minding your own business,
-but a thought crosses your mind, a shudder, you feel like you are being watched.
-\nDo you think you are?
+You are sitting at your desk minding your own business, but a thought crosses your mind, 
+a shudder, you feel like you are being watched. Do you think you are? 
 #
-1:No…
-2:Yes! This is the twenty first century after all.
+1:No. . .
+2:Yes! This is the twenty first century after all. 
 ~
-
 
 1
 Laws are changing, meaning you might not have the privacy that you first thought.
 #
-3:Whoa! Tell me more?
+3:Whoa! Tell me more? 
 3:Sounds scary, what does it do?
 ~
-
 2
 That may be so but laws are changing and you might not know it.
 #
-3:So what is it?
+3:So what is it? 
 ~
 
 3
-The new bill being introduced is called the investigatory powers act which gives the police, MI5 and all other security bodies the power to access the names of the sites you visit.
-\nWhat do you want to know? Remember there is a quiz at the end
+The new bill being introduced is called the investigatory powers act which gives the police, 
+MI5 and all other security bodies the power to access the names of the sites you visit. 
+What do you want to know? Remember there is a quiz at the end
 #
-4:So how long do they have this information for? Like forever? (Note: stay on one line) \nWho keeps hold of my information
-5:Is there any way I can stop it?
+4:So how long do they have this information for? Like forever? Who keeps hold of my information
+5:Is there any way I can stop it? 
 6:What else does this bill do?
 8:What are my rights officer?
 ~
 
 4
-The ISPs or Internet Service Providers, who you pay for your internet, hold the data for one year. This means that security services can not find anything on your browser after one year. 
-For you this means added costs to your Internet bill because your ISPs will need to finance the cost of these new data centres
+The ISPs or Internet Service Providers, who you pay for your internet, hold the data for one year. 
+This means that security services can not find anything on your browser after one year. 
+For you this means added costs to your Internet bill because your ISPs will need to finance the cost 
+of these new data centres 
 #
 5:Is there any way I can stop it?
-6:What else does this bill do?
-8:What are my rights officer?
-9:I am ready for the quiz! I am prepared!
+6:What else does this bill do? 
+8:What are my rights officer? 
+9:I am ready for the quiz! I am prepared! 
 ~
 
 5
-You would need to pay lots of money and spend a lot of time with a group of people authorized by the Home Secretary so you won’t get spied on but this usually doesn’t happen unless for security reasons
+You can't really stop people spying on you unless you are a 
+Journalist or you know something that could be a threat to national security. 
+You need to go through a court process involving the home security and a committee of judges.
 #
-4:So how long do they have this information for? Like forever? Who (Note: stay on one line) \nkeeps hold of my information
-6:What else does this bill do?
-7: So do I need to create a GUI interface using visual basic to track the killers IP address?
-8:What are my rights officer?
-9:I am ready for the quiz! I am prepared!
+4:So how long do they have this information for? Like forever? Who keeps hold of my information 
+6:What else does this bill do? 
+7: So do I need to create a GUI interface using visual basic to track the killers IP address? 
+8:What are my rights officer? 
+9:I am ready for the quiz! I am prepared! 
 ~
 
 6
-Police and others can intercept and read communications but they can only do this when allowed by the Home Secretary.
+Police and others can intercept and read communications 
+but they can only do this when allowed by the Home Secretary. 
+They're also allowed to interfere and hack computers. 
+Companies are to assist the officially sanctioned hacking operations and your data 
+that’s collected will eventually be broken down to see if there is any kind of signs of criminality or leads. 
 #
-4:So how long do they have this information for? Like forever?\nWho keeps hold of my information
-5:Is there any way I can stop it?
-7: So do I need to create a GUI interface using visual basic to track the killers IP address?
-8:What are my rights officer?
+4:So how long do they have this information for? Like forever? Who keeps hold of my information 
+5:Is there any way I can stop it? 
+7:So do I need to create a GUI interface using visual basic to track the killers IP address? 
+8:What are my rights officer? 
 9:I am ready for the quiz! I am prepared!
 ~
 
 7
-Sadly no, that would be a stupid and unreasonable thing to do. Why did that cross your mind?
+Sadly no, that would be a stupid and unreasonable thing to do. Why did that cross your mind? 
 #
-4:So how long do they have this information for? Like forever? \nWho keeps hold of my information
+4:So how long do they have this information for? Like forever? Who keeps hold of my information 
 5:Is there any way I can stop it?
-6:What else does this bill do?
-8:What are my rights, officer?
-9:I am ready for the quiz! I am prepared!
+6:What else does this bill do? 
+8:What are my rights, officer? 
+9:I am ready for the quiz! I am prepared! 
+~
+
+8
+You have a right when your data is being collected to not to be damaged/destroyed also you get 
+compensation if your data is used incorrectly. 
+The Police etc. can’t use data that could be damaging or distressful to the owner of the data.
+#
+4:So how long do they have this information for? Like forever? Who keeps hold of my information 
+5:Is there any way I can stop it? 
+6:What else does this bill do? 
+7: So do I need to create a GUI interface using visual basic to track the killers IP address?
+9:I am ready for the quiz! I am prepared! 
+~
+
+9
+This is where you're going to be quizzed on your knowledge of the Investigatory Powers Bill. 
+#
+10:I'm ready to start! 
+~
+
+10
+How long do ISPs hold your data? 
+#
+11:6 months 
+12:1 year 
+11:2 years 
+~
+
+11
+Incorrect! The ISPs hold your data for 1 year. 
+#
+10:OK
+~
+
+12
+Correct! How could this affect internet bills? 
+#
+13:Decrease 
+13:Stays the same 
+14:Increase 
+~
+
+13
+Incorrect! The internet bills will increase as they need to make more storage. 
+#
+12:OK
+~
+
+14
+Correct! What is the purpose of this new bill? 
+#
+15:To search for suspicious purchases on the internet. 
+15:To help track the killers ip address using a Visual Studio Basic GUI interface. 
+16:To help tracking down people of threat to national security 
+~
+
+15
+Incorrect! It is to help tracking down people of threat to national security 
+#
+10:OK 
+~
+
+16
+Correct! You have completed the quiz! Hooray! You have earned your personal DOGE award!! 
+#
+10:Start it again! 
 ~
